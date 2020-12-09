@@ -1,10 +1,9 @@
-const sayWebpack = () => {
-  console.log("Webpack is amazing!");
-};
+import value from "./js/a";
+import "./sass/main.scss";
+// import "./sass/base.scss";
 
-const add = (a, b) => {
-  console.log(a + b);
-};
+const fun = (a, b) => a + b;
 
-sayWebpack();
-add(5, 3);
+fun(2, 4);
+
+console.log(value);
